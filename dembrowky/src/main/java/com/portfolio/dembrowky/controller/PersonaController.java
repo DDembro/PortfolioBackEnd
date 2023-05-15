@@ -1,9 +1,13 @@
 package com.portfolio.dembrowky.Controller;
 
+import com.portfolio.dembrowky.dto.DtoPersona;
 import com.portfolio.dembrowky.entity.Persona;
+import com.portfolio.dembrowky.security.controller.Mensaje;
 import com.portfolio.dembrowky.service.IPersonaService;
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -48,19 +52,19 @@ public class PersonaController {
     }
     
     @PreAuthorize("hasRole('ADMIN')")
-    @PutMapping ("/persona/editar/{id}")
-    public Persona editPersona(@PathVariable Long id,
-                               @RequestParam("nombre") String nuevoNombre,
-                               @RequestParam("apellido") String nuevoApellido
-                               ) 
+    @PutMapping ("/persona/editar")
+    public ResponseEntity<?> editPersona(@RequestBody DtoPersona dtoPerso) 
         {
 
-            Persona persona = iPersonaService.buscarPersona(id);
+            Persona persona = iPersonaService.buscarPersona(1l);
             
-            persona.setNombre(nuevoNombre);
-            persona.setApellido(nuevoApellido);
+            persona.setNombre(dtoPerso.getNombre());
+            persona.setApellido(dtoPerso.getApellido());
+            persona.setDescripcion(dtoPerso.getDescripcion());
+            persona.setFotoPerfil(dtoPerso.getFotoPerfil());
+            persona.setAcercaDe(dtoPerso.getAcercaDe());
 
             iPersonaService.crearPersona(persona);
-            return persona;
+            return new ResponseEntity(new Mensaje("Persona actualizada"), HttpStatus.OK);
         }
 }
