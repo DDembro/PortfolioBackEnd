@@ -10,7 +10,6 @@ com\portfolio\dembrowky\security\controller\Mensaje.class
 com\portfolio\dembrowky\security\entity\Usuario.class
 com\portfolio\dembrowky\security\service\UserDetailsImpl.class
 com\portfolio\dembrowky\security\MainSecurity.class
-com\portfolio\dembrowky\Controller\CEstudio.class
 com\portfolio\dembrowky\entity\Persona.class
 com\portfolio\dembrowky\DembrowkyApplication.class
 com\portfolio\dembrowky\Controller\PersonaController.class
@@ -20,6 +19,7 @@ com\portfolio\dembrowky\security\controller\AuthController.class
 com\portfolio\dembrowky\security\entity\Rol.class
 com\portfolio\dembrowky\entity\Estudio.class
 com\portfolio\dembrowky\security\dto\JwtDto.class
+com\portfolio\dembrowky\Controller\CEstudioo.class
 com\portfolio\dembrowky\repository\IPersonaRepository.class
 com\portfolio\dembrowky\dto\DtoHabilidad.class
 com\portfolio\dembrowky\dto\DtoProyecto.class

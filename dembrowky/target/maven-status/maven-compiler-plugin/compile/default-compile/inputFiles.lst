@@ -26,13 +26,13 @@ D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\ma
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\entity\Habilidad.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\jwt\JwtProvider.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\enums\RolNombre.java
+D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\controller\CEstudioo.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\entity\Proyecto.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\entity\Rol.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\repository\IUsuarioRepository.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\service\UserDetailsImpl.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\repository\REstudio.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\service\PersonaService.java
-D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\controller\CEstudio.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\dto\DtoPersona.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\security\entity\Usuario.java
 D:\...Proyectos\Aregentina programa portafolio\PortfolioBackEnd\dembrowky\src\main\java\com\portfolio\dembrowky\service\SEstudio.java
